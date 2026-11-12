@@ -1,0 +1,9 @@
+# Exported file backups
+vscode/.backup/
+
+# VS Code backup files written by restore.ps1
+*.bak-*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

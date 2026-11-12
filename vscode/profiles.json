@@ -1,0 +1,23 @@
+{
+  "$comment": "Maps the folders in this repo to the VS Code user profiles they were exported from (see %APPDATA%/Code/User/globalStorage/storage.json -> userDataProfiles). The 'location' hash is machine specific and changes when a profile is recreated.",
+  "profiles": [
+    {
+      "folder": "profiles/default",
+      "vscodeName": "__default__profile__",
+      "location": null,
+      "description": "Current default profile. Personal styling + keybindings, to be turned into its own profile."
+    },
+    {
+      "folder": "profiles/minimal",
+      "vscodeName": "AdeiTamayoProfile",
+      "location": "30131fa7",
+      "description": "Minimalistic profile: no tabs, hidden activity bar/status bar, no line numbers, flat theme."
+    },
+    {
+      "folder": "profiles/latex",
+      "vscodeName": "Latex",
+      "location": "65d10bc8",
+      "description": "Profile used for LaTeX documents."
+    }
+  ]
+}

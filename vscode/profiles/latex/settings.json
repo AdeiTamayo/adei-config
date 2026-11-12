@@ -1,0 +1,10 @@
+{
+    "chat.tools.urls.autoApprove": {
+        "https://raw.githubusercontent.com": {
+            "approveRequest": true,
+            "approveResponse": false
+        }
+    },
+    "chat.permissions.default": "autoApprove",
+    "chat.viewSessions.orientation": "stacked"
+}

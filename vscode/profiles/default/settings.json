@@ -1,0 +1,12 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "files.autoSave": "afterDelay",
+  "window.menuBarVisibility": "compact",
+  "workbench.sideBar.location": "right",
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "workbench.browser.showInTitleBar": false,
+}

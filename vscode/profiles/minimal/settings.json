@@ -1,0 +1,230 @@
+{
+    // *** General Settings ***
+    "explorer.confirmDelete": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "window.openFoldersInNewWindow": "off",
+    "window.title": " ",
+    "window.zoomLevel": -1,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.showTabs": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    // *** Editor Settings ***
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "explorer.openEditors.visible": 1,
+    "editor.smoothScrolling": true,
+    "workbench.enableExperiments": false,
+    "workbench.list.smoothScrolling": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingComments": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.colorDecorators": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.fontWeight": "600",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.hover.delay": 500,
+    "editor.hover.enabled": "on",
+    "editor.lightbulb.enabled": "off",
+    "editor.lineNumbers": "off",
+    "editor.linkedEditing": true,
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.minimap.showMarkSectionHeaders": false,
+    "editor.minimap.showRegionSectionHeaders": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    // "editor.scrollbar.horizontal": "hidden",
+    // "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.selectionHighlight": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.tree.indent": 10,
+    "workbench.tree.renderIndentGuides": "none",
+    // *** Files Settings ***
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "git.decorations.enabled": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never",
+    "problems.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    // *** Appearance Customization ***
+    "workbench.colorCustomizations": {
+        "editorGhostText.foreground": "#9ea0a0",
+        "editor.lineHighlightBackground": "#1f1f1f",
+        "editor.lineHighlightBorder": "#1f1f1f",
+        "editorGroupHeader.border": "#00000000",
+        "activityBar.border": "#00000000",
+        "sideBar.border": "#00000000",
+        "panel.border": "#00000000",
+        "statusBar.border": "#00000000",
+        "editor.background": "#282c31",
+        "sideBar.background": "#282c31"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#aaa9a9",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "comment.block.documentation",
+                "settings": {
+                    "foreground": "#98C379",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    // *** Extensions and Features ***
+    "better-comments.tags": [
+        {
+            "tag": "TODO",
+            "color": "#FF8C00",
+            "bold": true
+        },
+        {
+            "tag": "FIXME",
+            "color": "#FF2D00",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "NOTE",
+            "color": "#3498DB"
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true
+        },
+        {
+            "tag": "*",
+            "color": "#98C379"
+        },
+        {
+            "tag": "!",
+            "color": "#FF0000"
+        },
+        {
+            "tag": "?",
+            "color": "#FF8C00"
+        }
+    ],
+    "github.copilot.advanced": {
+        "model": "Claude 3.5 sonnet"
+    },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    // *** Terminal Settings ***
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.fontFamily": "monospace",
+    // *** Miscellaneous ***
+    "liveServer.settings.donotShowInfoMsg": true,
+    "python.defaultInterpreterPath": "C:\\Users\\adeit\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
+    "remote.SSH.remotePlatform": {
+        "dif-cluster.ehu.es": "linux"
+    },
+    "[search-result]": {
+        "breadcrumbs.showKeys": false
+    },
+    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.useProjectTemplates": false,
+    "glassit.alpha": 220,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "haskell.manageHLS": "GHCup",
+    "jdk.telemetry.enabled": false,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "customizeUI.stylesheet": {
+        "explorer": {
+            "tree": {
+                /* Remove hover background */
+                ".monaco-list-row:hover": "background: transparent !important;",
+                /* Remove indent guide lines */
+                ".monaco-list .monaco-tl-indent-guide": "display: none !important;",
+                /* Hide new file/folder buttons */
+                ".explorer-viewlet .action-item": "display: none !important;"
+            }
+        }
+    },
+    "terminal.integrated.stickyScroll.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.tree.enableStickyScroll": false,
+    "prolog.linter.run": "never",
+    "prolog.linter.enabled": false,
+    "prolog.executablePath": "",
+    "[prolog]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.suggest.showKeywords": true,
+        "editor.suggest.showFunctions": false,
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.parameterHints.enabled": false,
+        "editor.wordBasedSuggestions": "currentDocument",
+        "editor.defaultFormatter": "AmauryRabouan.new-vsc-prolog",
+        // disable formatting
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+    },
+    "chat.checkpoints.showFileChanges": true,
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.colorTheme": "Theme Flat",
+    "[haskell]": {
+        "editor.defaultFormatter": "vigoo.stylish-haskell"
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilotcli:",
+    "editor.unicodeHighlight.includeComments": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.browser.openLocalhostLinks": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "chat.tools.terminal.autoApprove": {
+        "/^node -e \"const fs=require\\('fs'\\); const paths=\\['src/locales/en/translation\\.json','src/locales/es/translation\\.json','src/locales/eu/translation\\.json','package\\.json','tsconfig\\.json','tsconfig\\.node\\.json','vercel\\.json','\\.oxlintrc\\.json'\\]; for \\(const p of paths\\) \\{ try \\{ JSON\\.parse\\(fs\\.readFileSync\\(p,'utf8'\\)\\); console\\.log\\('OK '\\+p\\) \\} catch\\(e\\) \\{ console\\.log\\('FAIL '\\+p\\+': '\\+e\\.message\\) \\} \\}\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "breadcrumbs.enabled": false
+}
