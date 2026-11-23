@@ -1,14 +1,14 @@
 # Restores a VS Code profile stored in this repo back into VS Code.
 #
 #   ./vscode/restore.ps1 -Profile minimal
-#   ./vscode/restore.ps1 -Profile latex -Extensions
+#   ./vscode/restore.ps1 -Profile latex-jupyter -Extensions
 #
 # Existing files are backed up next to the originals as *.bak-<timestamp>.
 
 [CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('default', 'minimal', 'latex', 'angular-python')]
+    [ValidateSet('default', 'minimal', 'latex-jupyter', 'angular-python')]
     [string]$Profile,
 
     # Also (re)install the extensions listed in extensions.txt for that profile.

@@ -14,10 +14,10 @@
       "description": "Minimalistic profile: no tabs, hidden activity bar/status bar, no line numbers, flat theme."
     },
     {
-      "folder": "profiles/latex",
+      "folder": "profiles/latex-jupyter",
       "vscodeName": "Latex",
       "location": "65d10bc8",
-      "description": "Profile used for LaTeX documents."
+      "description": "Profile used for LaTeX documents and Jupyter notebooks."
     },
     {
       "folder": "profiles/angular-python",

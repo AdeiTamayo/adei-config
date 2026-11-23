@@ -8,7 +8,7 @@ contains the files VS Code keeps in `%APPDATA%\Code\User` (default profile) or
 | ---------- | -------------------- | ----- |
 | `default/` | *Default*            | Personal styling + keybindings, to be turned into its own profile. |
 | `minimal/` | `AdeiTamayoProfile`  | Minimalistic UI: no tabs, hidden activity bar/status bar, no line numbers, flat theme. |
-| `latex/`   | `Latex`              | Profile used for LaTeX documents. |
+| `latex-jupyter/` | `Latex`        | LaTeX documents and Jupyter notebooks (dark theme, LaTeX Workshop, Python/Jupyter extensions). |
 | `angular-python/` | `Adei-arima-profile` | Angular and Python with Pylance, Ruff and Prettier; macOS keybindings. |
 
 `profiles.json` records the mapping to the original VS Code profile names and
@@ -37,7 +37,7 @@ The PowerShell scripts use `%APPDATA%` and `%USERPROFILE%` on Windows.
 ./vscode/restore.ps1 -Profile minimal
 
 # Restore and (re)install the extensions listed in extensions.txt
-./vscode/restore.ps1 -Profile latex -Extensions
+./vscode/restore.ps1 -Profile latex-jupyter -Extensions
 
 # Restore the Angular/Python profile
 ./vscode/restore.ps1 -Profile angular-python -Extensions
