@@ -9,6 +9,7 @@ contains the files VS Code keeps in `%APPDATA%\Code\User` (default profile) or
 | `default/` | *Default*            | Personal styling + keybindings, to be turned into its own profile. |
 | `minimal/` | `AdeiTamayoProfile`  | Minimalistic UI: no tabs, hidden activity bar/status bar, no line numbers, flat theme. |
 | `latex/`   | `Latex`              | Profile used for LaTeX documents. |
+| `angular-python/` | `Adei-arima-profile` | Angular and Python with Pylance, Ruff and Prettier; macOS keybindings. |
 
 `profiles.json` records the mapping to the original VS Code profile names and
 location hashes.
@@ -24,7 +25,9 @@ was derived from the globally installed extensions in `~/.vscode/extensions`.
 
 ## Restoring
 
-### Automatically
+### Automatically (Windows)
+
+The PowerShell scripts use `%APPDATA%` and `%USERPROFILE%` on Windows.
 
 ```powershell
 # Restore settings + keybindings into the default profile (backups are kept)
@@ -35,6 +38,9 @@ was derived from the globally installed extensions in `~/.vscode/extensions`.
 
 # Restore and (re)install the extensions listed in extensions.txt
 ./vscode/restore.ps1 -Profile latex -Extensions
+
+# Restore the Angular/Python profile
+./vscode/restore.ps1 -Profile angular-python -Extensions
 ```
 
 The script resolves the named profile through
@@ -57,6 +63,25 @@ Get-Content ./vscode/profiles/minimal/extensions.txt |
 ```
 
 Add `--profile "<name>"` to install into a specific profile.
+
+### Angular/Python on macOS
+
+The `angular-python` export was captured from `Adei-arima-profile` on 2026-11-23.
+Create an empty profile with that name and switch to it. Use **Preferences: Open
+User Settings (JSON)** and **Preferences: Open Keyboard Shortcuts (JSON)** to
+replace their contents with the corresponding exported files.
+
+From the repository root, install the recorded extension versions:
+
+```sh
+while IFS= read -r extension; do
+  code --profile "Adei-arima-profile" --install-extension "$extension"
+done < vscode/profiles/angular-python/extensions.txt
+```
+
+The profile export omits local PostgreSQL server groups and connections. Review
+settings after re-exporting before committing, because `export.ps1` copies them
+verbatim.
 
 ## Re-exporting after changes
 

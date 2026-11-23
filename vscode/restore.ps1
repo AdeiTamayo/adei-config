@@ -8,7 +8,7 @@
 [CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory)]
-    [ValidateSet('default', 'minimal', 'latex')]
+    [ValidateSet('default', 'minimal', 'latex', 'angular-python')]
     [string]$Profile,
 
     # Also (re)install the extensions listed in extensions.txt for that profile.

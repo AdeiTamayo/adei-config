@@ -1,0 +1,33 @@
+{
+  // Layout and navigation
+  "workbench.sideBar.location": "right",
+  "workbench.list.defaultFindMode": "filter",
+  "explorer.compactFolders": false,
+  "editor.minimap.enabled": false,
+
+  // Suggestions, diagnostics and formatting
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on",
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.formatOnSave": false,
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[python]": { "editor.defaultFormatter": "charliermarsh.ruff" },
+  "python.analysis.typeCheckingMode": "basic",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "workbench.browser.showInTitleBar": false,
+  "git.confirmSync": false,
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.accessibilitySupport": "off"
+}

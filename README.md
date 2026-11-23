@@ -18,6 +18,7 @@ Planned: terminal configuration, shell/PowerShell profile, and agent skills.
 | `vscode/profiles/default` | *Default* | Current default profile — personal styling and keybindings. |
 | `vscode/profiles/minimal` | `AdeiTamayoProfile` | Minimalistic UI profile. |
 | `vscode/profiles/latex`   | `Latex` | LaTeX writing profile. |
+| `vscode/profiles/angular-python` | `Adei-arima-profile` | Angular and Python development. |
 
 ## Usage
 

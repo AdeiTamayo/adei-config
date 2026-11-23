@@ -1,0 +1,13 @@
+amodio.toggle-excluded-files@2.0.0
+angular.ng-template@22.2.0
+charliermarsh.ruff@2026.98.0
+eamodio.gitlens@19.6.1
+esbenp.prettier-vscode@12.4.0
+ms-ossdata.vscode-pgsql@1.34.0
+ms-python.debugpy@2026.6.0
+ms-python.python@2026.10.0
+ms-python.vscode-pylance@2026.4.1
+ms-python.vscode-python-envs@1.44.0
+openai.chatgpt@26.1117.41037
+openai.codex-audio@26.1117.41037
+pkief.material-icon-theme@5.40.0

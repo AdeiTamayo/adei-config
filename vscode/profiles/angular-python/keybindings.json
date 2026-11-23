@@ -1,0 +1,16 @@
+[
+  { "key": "cmd+shift+e", "command": "workbench.explorer.fileView.focus", "when": "isMac" },
+  { "key": "cmd+b", "command": "workbench.action.toggleSidebarVisibility", "when": "isMac" },
+  { "key": "cmd+shift+g", "command": "workbench.view.scm", "when": "isMac" },
+  { "key": "cmd+shift+c", "command": "workbench.action.chat.open", "when": "isMac && !(terminalFocus && terminalTextSelected)" },
+  { "key": "alt+cmd+k alt+cmd+l", "command": "chatgpt.openSidebar", "when": "isMac" },
+  { "key": "cmd+k cmd+s", "command": "-workbench.action.openGlobalKeybindings" },
+  { "key": "cmd+k cmd+s", "command": "workbench.files.action.collapseExplorerFolders", "when": "isMac" },
+  { "key": "cmd+k cmd+h", "command": "editor.foldAll", "when": "isMac && editorTextFocus && foldingEnabled" },
+  { "key": "cmd+alt+down", "command": "-editor.action.insertCursorBelow", "when": "editorTextFocus" },
+  { "key": "cmd+alt+down", "command": "editor.action.duplicateSelection", "when": "isMac && editorTextFocus && !editorReadonly" },
+  { "key": "ctrl+l", "command": "expandLineSelection", "when": "isMac && editorTextFocus" },
+  { "key": "cmd+shift+7", "command": "editor.action.commentLine", "when": "isMac && editorTextFocus && !editorReadonly" },
+  { "key": "cmd+k cmd+v", "command": "markdown.showPreview", "when": "isMac && editorLangId == 'markdown' && !notebookEditorFocused" },
+  { "key": "cmd+k cmd+o", "command": "workbench.action.files.openFolder", "when": "isMac" }
+]

@@ -18,6 +18,12 @@
       "vscodeName": "Latex",
       "location": "65d10bc8",
       "description": "Profile used for LaTeX documents."
+    },
+    {
+      "folder": "profiles/angular-python",
+      "vscodeName": "Adei-arima-profile",
+      "location": "-190057bb",
+      "description": "Angular and Python development with Angular Language Service, Pylance, Ruff and Prettier. Local database connections omitted."
     }
   ]
 }
